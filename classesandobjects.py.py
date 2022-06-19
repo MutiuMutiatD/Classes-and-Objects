@@ -3,7 +3,7 @@
 from os import name
 
 
-class Pupil:
+class Student:
     def __init__(self, name, age, track, score):
         self.name = name
         self.age = age
@@ -25,7 +25,7 @@ class Pupil:
     def get_score(self):
         print("My score is ", self.score)
 
-Dami = Pupil(name="Dami", age=24, track="FullStack",score=36.92)
+Dami = Student(name="Dami", age=24, track="FullStack",score=36.92)
 
 # Expected methods
 Dami.change_name("Ife")
